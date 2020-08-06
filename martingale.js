@@ -1,6 +1,7 @@
 var satoshi = require('./api.js');
+var config = require('./config.js');
 
-var usr = 'c4049a9f3749d2967a275543453fb403';
+var usr = config.API_KEY;
 var myRoll = 5;
 var initialBet = 100;
 var currentBet = initialBet;
