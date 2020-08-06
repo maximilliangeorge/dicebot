@@ -1,0 +1,7 @@
+# Hide node modules
+node_modules/
+package.json
+package-lock.json
+
+# secret API key
+config.js
